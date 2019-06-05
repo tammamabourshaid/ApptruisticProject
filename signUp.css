@@ -1,0 +1,9 @@
+body {
+    position: sticky;
+ margin-left: 100px;
+margin-top: 50px;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }

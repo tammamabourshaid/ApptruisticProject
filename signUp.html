@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="google-chrome">
     <title>Sign UP</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="signUp.css">
 </head>
 <body>
     <form class="col-md-3">
@@ -18,17 +19,16 @@
           <label for="exampleInputPassword1">Password</label>
           <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
         </div>
-        <div class="form-group">
+        <div  class="form-group">
             <label for="NameOfOrganisation">Name of Organisation</label>
-            <input type="text" class="form-control" id="NameOfOrganisation"
+            <input type="textarea" class="form-control" id="NameOfOrganisation"
              placeholder="Title">
           </div>
           <div class="form-group">
-            <label for="ShortDescriptionOfOrganisation">Short description of organisation
-            </label>
-            <input type="text" class="form-control" id="ShortDescriptionOfOrganisation"
-             placeholder="Description">
+            <label for="ShortDescriptionOfOrganisation">Short Description of Organisation</label>
+            <textarea class="form-control" id="ShortDescriptionOfOrganisation" rows="5"></textarea>
           </div>
+
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     
