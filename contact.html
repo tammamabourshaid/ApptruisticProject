@@ -82,32 +82,66 @@
             </div>
           </header>
           <!-- Header End -->
+         
+    <div class="container">
+      <div class="row">
+        <div class="span5">
+        <h3>Contact Form</h3>
+        <div>         
+          <form class="form-main" name="ajax-form" id="ajax-form" action="#" method="post">
+            <div id="ajaxsuccess">E-mail was successfully sent.</div> 
+            <div class="error" id="err-name">Please enter name</div>
+            <input name="name" id="name" type="text" value="Name" onfocus="if(this.value == 'Name') this.value='';" onblur="if(this.value == '') this.value='Name';">
+            
+            <div class="error" id="err-email">Please enter e-mail</div>
+		        <div class="error" id="err-emailvld">E-mail is not a valid format</div>
+            <input  name="email" id="email" type="text" value="E-mail" onfocus="if(this.value == 'E-mail') this.value='';" onblur="if(this.value == '') this.value='E-mail';">
 
-          <form id="login" class="form-horizontal">
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-                  <div class="col-sm-10">
-                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-                  <div class="col-sm-10">
-                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-                  </div>
-                </div>
-              <div  id="chkbox-login" class="form-group">
-                  <div class="col-sm-offset-2 col-sm-10">
-                  
-                    <button type="button" class="btn btn-primary">Sign in</button>
+            <div class="error" id="err-message">Please enter message</div>
+            <textarea  name="message" id="message" onfocus="if(this.value == 'Message') this.value='';" onblur="if(this.value == '') this.value='Message';">Message</textarea><br>
+            <div>
+            	<div class="error" id="err-form">There was a problem validating the form please check!</div>
+            	<div class="error" id="err-timedout">The connection to the server timed out!</div>
+            	<div class="error" id="err-state"></div>
+            </div>
+            <button id="send" class="btn f-right">Send Message <i class="icon-ok"></i></button>
+          </form>
+        </div>
+        </div>
+        <div class="span3 offset3">
+            <h3>Address</h3>
+           District<br />
+            Vienna<br />
+            Austrai<br />
+            <br />
+            <i class="icon-phone"></i>+43 000 000 000<br />
+            <i class="icon-envelope"></i
+            ><a href="mailto:nacs@newaustriancodingschool.at"
+              >nacs@newaustriancodingschool.at</a
+            ><br />
+            <i class="icon-home"></i
+            ><a href="https://www.newaustriancodingschool.at"
+              >www.newaustriancodingschool.at</a
+            >
 
-                  </div>
-                </div>
-              </form>
+          
+          <div class="row space40"></div>
+
+                <a href="www.facebook.com" class="social-network sn2 facebook"></a>
+                <a href="www.pinterest.com" class="social-network sn2 pinterest"></a>
+                <a href="www.linkedin.com" class="social-network sn2 linkedin"></a>
+                <a href="www.xing.com" class="social-network sn2 xing"></a>
+              </div>
+      </div>
+      
+      <div class="row space50"></div>
+    
+
+    </div>
+          
     </div>
     
 </body>
-
 
   <!-- JavaScripts -->
   <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script> 

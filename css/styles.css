@@ -914,7 +914,7 @@ table a:hover{
   width:95%;
   padding:16px 12px 14px 12px; 
   margin-top:10px;
-  background:#464646;
+  background:#8cb8eb;
   border-radius:0px;
   border:0px;
 }
@@ -1540,12 +1540,19 @@ padding-top: 10px;
   margin-bottom: 50px;
   }
   
-  #login .form-group {
+#login .form-group {
     margin-left: 100px;
     margin-top: 20px; font-family: Arial, Helvetica, sans-serif;
     }
     
-    #chkbox-login .form-group {
+#chkbox-login .form-group {
       margin-left: 100px;
-
     }
+
+    #profile{
+      margin-left: 100px;
+      margin-top: 10px; font-family: Arial, Helvetica, sans-serif;
+      border-width: 5px;
+      padding-top: 10px;
+      }
+      
