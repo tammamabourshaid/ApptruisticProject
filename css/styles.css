@@ -313,7 +313,7 @@ header {
 				}
 				#nav li a:active
 				{
-					background-color: #c00 !important;
+					background-color: rgb(35, 145, 179) !important;
 				}
 
 			#nav span:after
@@ -334,13 +334,15 @@ header {
 
 			#nav > ul
 			{
-				background-color: #11BBEE;
+        background-color: #11BBEE;
+        display: flex;
+        max-width: 600px;
+        margin-left: auto;
 			}
 				#nav > ul > li
 				{
-					width: 20%;
+					flex-basis: 33.33%;
 					height: 100%;
-					float: left;
 				}
 					#nav > ul > li > a
 					{
@@ -720,7 +722,7 @@ header {
   
 .btn {
   color:#fff;
-  background:#fb8865;
+  background:#6186ca;
   height:48px;
   line-height:48px;
   padding:0px 22px;
@@ -736,7 +738,7 @@ header {
 }
 .btn:hover {
   color:#fff;
-  background:#fda056;
+  background:#5690fd;
 }
 
 .btn-blue {
@@ -1522,3 +1524,28 @@ table a:hover{
 .social-network.yelp:hover,.active .social-network.yelp{ background-position: -1104px -24px}
 .social-network.youtube:hover,.active .social-network.youtube{ background-position: -1128px -24px}
 .social-network.zerply:hover,.active .social-network.zerply{ background-position: -1152px -24px}
+
+
+#signup-form{
+margin-left: 100px;
+margin-top: 50px; font-family: Arial, Helvetica, sans-serif;
+border-width: 5px;
+padding-top: 10px;
+}
+
+#login{
+  margin-left: 100px;
+  margin-top: 50px; font-family: Arial, Helvetica, sans-serif;
+  border-width: 5px;
+  margin-bottom: 50px;
+  }
+  
+  #login .form-group {
+    margin-left: 100px;
+    margin-top: 20px; font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #chkbox-login .form-group {
+      margin-left: 100px;
+
+    }

@@ -190,6 +190,17 @@
 }
 
 
+#header .signup .cnt {
+  display: flex;  
+  justify-content: space-between;
+  align-items: flex-end;
+}
 
+#header .signup .menu {
+  flex-basis: 70%;  
 
+}
+#header .signup .logo img {
+  width: 270px;
+}
 
