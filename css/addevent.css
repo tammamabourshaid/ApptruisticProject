@@ -1,5 +1,5 @@
 .list-group-item span {
-  margin-left: 5px;
+  margin-left: 50px;
 }
 
 div.form {
@@ -7,9 +7,9 @@ div.form {
 }
 
 h2 {
-  margin-top: 50px;
+  margin-left: 50px;
 }
 
-.add-task {
-  margin-top: 20px;
+#eventbtn{
+  margin-left: 750px;
 }
